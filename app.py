@@ -34,7 +34,7 @@ if not google_api_key:
 # --- 🧠 Configuración del Modelo Gemini ---
 try:
     genai.configure(api_key=google_api_key)
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-2.5-pro-exp-03-25')
     st.sidebar.success("✅ Conectado a Gemini")
 except Exception as e:
     st.error(f"❌ Error al configurar Gemini: {e}")
