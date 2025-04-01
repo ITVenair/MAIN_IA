@@ -38,7 +38,7 @@ if not google_api_key:
 try:
     genai.configure(api_key=google_api_key)
     # Verifica que el modelo 'gemini-pro' esté disponible y sea correcto
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-2.5-pro-exp-03-25')
     # Pequeña prueba de conexión (opcional, pero útil para diagnóstico)
     # model.generate_content("Test", generation_config=genai.types.GenerationConfig(max_output_tokens=5))
     st.sidebar.success("✅ Conectado a Gemini")
