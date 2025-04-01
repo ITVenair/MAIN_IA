@@ -1,0 +1,17 @@
+# Entornos virtuales
+venv/
+*.venv/
+env/
+ENV/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración local (si usas .env para API keys localmente)
+.env*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
